@@ -67,10 +67,10 @@ const Footer = ({ style_2 = false, style_3 = false, primary_style = false }) => 
                 <div className="tp-footer-widget footer-col-4 mb-50">
                   <h4 className="tp-footer-widget-title">Talk To Us</h4>
                   <div className="tp-footer-widget-content">
-                    <div className="tp-footer-talk mb-20">
+                    {/* <div className="tp-footer-talk mb-20">
                       <span>Got Questions? Call us</span>
                       <h4><a href="tel:670-413-90-762">+92 331 730 2527</a></h4>
-                    </div>
+                    </div> */}
                     <div className="tp-footer-contact">
                       <div className="tp-footer-contact-item d-flex align-items-start">
                         <div className="tp-footer-contact-icon">
@@ -105,8 +105,8 @@ const Footer = ({ style_2 = false, style_3 = false, primary_style = false }) => 
               <div className="row align-items-center">
                 <div className="col-md-6">
                   <div className="tp-footer-copyright">
-                    <p>© {new Date().getFullYear()} All Rights Reserved  |  Next js Template by
-                      <Link href="/">{" "}❤</Link>.
+                    <p>© {new Date().getFullYear()} All Rights Reserved by
+                      <Link href="/">{" "}Laraib Fatima ❤</Link>.
                     </p>
                   </div>
                 </div>

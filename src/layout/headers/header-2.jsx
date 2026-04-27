@@ -8,7 +8,6 @@ import logo from '@assets/img/logo/logo.svg';
 import useSticky from '@/hooks/use-sticky';
 import useCartInfo from '@/hooks/use-cart-info';
 import { openCartMini } from '@/redux/features/cartSlice';
-import HeaderTopRight from './header-com/header-top-right';
 import CartMiniSidebar from '@/components/common/cart-mini-sidebar';
 import { CartTwo, Compare, Facebook, Menu, PhoneTwo, Wishlist, Search } from '@/svg';
 import useSearchFormSubmit from '@/hooks/use-search-form-submit';
@@ -25,36 +24,6 @@ const HeaderTwo = ({ style_2 = false }) => {
     <>
       <header>
         <div className={`tp-header-area tp-header-style-${style_2 ? 'primary' : 'darkRed'} tp-header-height`}>
-          <div className="tp-header-top-2 p-relative z-index-11 tp-header-top-border d-none d-md-block">
-            <div className="container">
-              <div className="row align-items-center">
-                <div className="col-md-6">
-                  <div className="tp-header-info d-flex align-items-center">
-                    <div className="tp-header-info-item">
-                      <a href="#">
-                        <span>
-                          <Facebook />
-                        </span> 7500k Followers
-                      </a>
-                    </div>
-                    <div className="tp-header-info-item">
-                      <a href="tel:966-595-035-008">
-                        <span>
-                          <PhoneTwo />
-                        </span> +(92) 331 730 527
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-6">
-                  <div className="tp-header-top-right tp-header-top-black d-flex align-items-center justify-content-end">
-                    <HeaderTopRight />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
           <div id="header-sticky" className={`tp-header-bottom-2 tp-header-sticky ${sticky ? 'header-sticky' : ''}`}>
             <div className="container">
               <div className="tp-mega-menu-wrapper p-relative">
