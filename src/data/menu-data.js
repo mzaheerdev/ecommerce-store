@@ -110,12 +110,12 @@ const menu_data = [
       { title: "Blog Details Full Width", link: "/blog-details-2" },
     ],
   },
-  // {
-  //   id: 6,
-  //   single_link: true,
-  //   title: "Contact",
-  //   link: "/contact",
-  // },
+  {
+    id: 6,
+    single_link: true,
+    title: "Contact",
+    link: "/contact",
+  },
 ];
 
 export default menu_data;
