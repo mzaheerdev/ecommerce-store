@@ -9,7 +9,7 @@ import language_img from '@assets/img/icon/language-flag.png';
 import MobileCategory from '@/layout/headers/header-com/mobile-category';
 import MobileMenus from './mobile-menus';
 
-const OffCanvas = ({ isOffCanvasOpen, setIsCanvasOpen,categoryType = "electronics" }) => {
+const OffCanvas = ({ isOffCanvasOpen, setIsCanvasOpen, categoryType = "electronics" }) => {
   const [isCategoryActive, setIsCategoryActive] = useState(false);
   const [isCurrencyActive, setIsCurrencyActive] = useState(false);
   const [isLanguageActive, setIsLanguageActive] = useState(false);
@@ -68,11 +68,11 @@ const OffCanvas = ({ isOffCanvasOpen, setIsCanvasOpen,categoryType = "electronic
                 </h3>
               </div>
             </div>
-            <div className="offcanvas__btn">
-              <Link href="/contact" className="tp-btn-2 tp-btn-border-2">Contact Us</Link>
-            </div>
+            {/* <div className="offcanvas__btn">
+              <Link href="/contact" className="tp-btn-2 tp-btn-border-2">Contact Us hello</Link>
+            </div> */}
           </div>
-          <div className="offcanvas__bottom">
+          {/* <div className="offcanvas__bottom">
             <div className="offcanvas__footer d-flex align-items-center justify-content-between">
               <div className="offcanvas__currency-wrapper currency">
                 <span onClick={handleCurrencyActive} className="offcanvas__currency-selected-currency tp-currency-toggle" id="tp-offcanvas-currency-toggle">Currency : USD</span>
@@ -100,7 +100,7 @@ const OffCanvas = ({ isOffCanvasOpen, setIsCanvasOpen,categoryType = "electronic
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       {/* body overlay start */}

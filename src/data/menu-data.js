@@ -191,12 +191,12 @@ export const mobile_menu = [
       { title: "404 Error", link: "/404" },
     ],
   },
-  {
-    id: 4,
-    single_link: true,
-    title: "Coupons",
-    link: "/coupon",
-  },
+  // {
+  //   id: 4,
+  //   single_link: true,
+  //   title: "Coupons",
+  //   link: "/coupon",
+  // },
   {
     id: 5,
     sub_menu: true,
