@@ -82,19 +82,18 @@ const menu_data = [
   // },
   {
     id: 3,
-    sub_menu: true,
     title: "Shop",
     link: "/shop",
-    sub_menus: [
-      { title: "Shop", link: "/shop" },
-      { title: "Right Sidebar", link: "/shop-right-sidebar" },
-      { title: "Hidden Sidebar", link: "/shop-hidden-sidebar" },
-    ],
+    // sub_menus: [
+    //   { title: "Shop", link: "/shop" },
+    //   { title: "Right Sidebar", link: "/shop-right-sidebar" },
+    //   { title: "Hidden Sidebar", link: "/shop-hidden-sidebar" },
+    // ],
   },
   {
-    id:20,
+    id: 20,
     title: "Categories",
-    link: "/shop-category"
+    link: "/shop-category",
   },
   // {
   //   id: 4,
@@ -104,19 +103,31 @@ const menu_data = [
   // },
   {
     id: 5,
-    sub_menu: true,
+    // sub_menu: true,
     title: "Blog",
     link: "/blog",
+    // sub_menus: [
+    //   { title: "Blog Standard", link: "/blog" },
+    //   // { title: "Blog Grid", link: "/blog-grid" },
+    //   // { title: "Blog List", link: "/blog-list" },
+    //   { title: "Blog Details", link: "/blog-details" },
+    //   // { title: "Blog Details Full Width", link: "/blog-details-2" },s
+    // ],
+  },
+   {
+    id: 6,
+    sub_menu: true,
+    title: "More Pages",
+    link: "/login",
     sub_menus: [
-      { title: "Blog Standard", link: "/blog" },
-      // { title: "Blog Grid", link: "/blog-grid" },
-      // { title: "Blog List", link: "/blog-list" },
-      { title: "Blog Details", link: "/blog-details" },
-      // { title: "Blog Details Full Width", link: "/blog-details-2" },s
+      { title: "Login", link: "/login" },
+      { title: "Register", link: "/register" },
+      { title: "Forgot Password", link: "/forgot" },
+      { title: "404 Error", link: "/404" },
     ],
   },
   {
-    id: 6,
+    id: 7,
     single_link: true,
     title: "Contact",
     link: "/contact",
@@ -136,7 +147,7 @@ export const mobile_menu = [
   {
     id: 2,
     //sub_menu: true,
-    title: "Products",
+    title: "Shop",
     link: "/shop",
     isCategory: true,
   },
@@ -173,16 +184,16 @@ export const mobile_menu = [
   // },
   {
     id: 5,
-    sub_menu: true,
+    single_link: true,
     title: "Blog",
     link: "/blog",
-    sub_menus: [
-      { title: "Blog Standard", link: "/blog" },
-      //{ title: "Blog Grid", link: "/blog-grid" },
-     // { title: "Blog List", link: "/blog-list" },
-      { title: "Blog Details", link: "/blog-details" },
-      //{ title: "Blog Details Full Width", link: "/blog-details-2" },
-    ],
+    // sub_menus: [
+    //   { title: "Blog Standard", link: "/blog" },
+    //   //{ title: "Blog Grid", link: "/blog-grid" },
+    //  // { title: "Blog List", link: "/blog-list" },
+    //   { title: "Blog Details", link: "/blog-details" },
+    //   //{ title: "Blog Details Full Width", link: "/blog-details-2" },
+    // ],
   },
   {
     id: 6,
