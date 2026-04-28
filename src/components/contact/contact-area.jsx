@@ -37,9 +37,9 @@ const ContactArea = () => {
                       <p data-info="mail">
                         <a href="mailto:contact@shofy.com">contact@shofy.com</a>
                       </p>
-                      <p data-info="phone">
+                      {/* <p data-info="phone">
                         <a href="tel:670-413-90-762">+670 413 90 762</a>
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                   <div className="tp-contact-info-item">
