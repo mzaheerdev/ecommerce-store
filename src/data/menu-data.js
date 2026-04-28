@@ -9,28 +9,28 @@ const menu_data = [
     homes: true,
     title: "Home",
     link: "/",
-    home_pages: [
-      {
-        img: home_1,
-        title: "Electronics",
-        link: "/",
-      },
-      {
-        img: home_2,
-        title: "Fashion",
-        link: "/home-2",
-      },
-      {
-        img: home_3,
-        title: "Beauty",
-        link: "/home-3",
-      },
-      {
-        img: home_4,
-        title: "Jewelry",
-        link: "/home-4",
-      },
-    ],
+    // home_pages: [
+    //   {
+    //     img: home_1,
+    //     title: "Electronics",
+    //     link: "/",
+    //   },
+    //   {
+    //     img: home_2,
+    //     title: "Fashion",
+    //     link: "/home-2",
+    //   },
+    //   {
+    //     img: home_3,
+    //     title: "Beauty",
+    //     link: "/home-3",
+    //   },
+    //   {
+    //     img: home_4,
+    //     title: "Jewelry",
+    //     link: "/home-4",
+    //   },
+    // ],
   },
   {
     id: 2,
@@ -47,16 +47,16 @@ const menu_data = [
           { title: "Product Details", link: "/product-details" },
         ],
       },
-      {
-        title: "Products",
-        link: "/product-details",
-        mega_menus: [
-          { title: "Product Simple", link: "/product-details" },
-          { title: "With Video", link: "/product-details-video" },
-          { title: "With Countdown Timer", link: "/product-details-countdown" },
-          { title: "Variations Swatches", link: "/product-details-swatches" },
-        ],
-      },
+      // {
+      //   title: "Products",
+      //   link: "/product-details",
+      //   mega_menus: [
+      //     { title: "Product Simple", link: "/product-details" },
+      //     { title: "With Video", link: "/product-details-video" },
+      //     { title: "With Countdown Timer", link: "/product-details-countdown" },
+      //     { title: "Variations Swatches", link: "/product-details-swatches" },
+      //   ],
+      // },
       {
         title: "eCommerce",
         link: "/shop",
@@ -127,44 +127,13 @@ export const mobile_menu = [
     homes: true,
     title: "Home",
     link: "/",
-    home_pages: [
-      {
-        img: home_1,
-        title: "Electronics",
-        link: "/",
-      },
-      {
-        img: home_2,
-        title: "Fashion",
-        link: "/home-2",
-      },
-      {
-        img: home_3,
-        title: "Beauty",
-        link: "/home-3",
-      },
-      {
-        img: home_4,
-        title: "Jewelry",
-        link: "/home-4",
-      },
-    ],
   },
   {
     id: 2,
-    sub_menu: true,
+    //sub_menu: true,
     title: "Products",
     link: "/shop",
-    sub_menus: [
-      { title: "Shop", link: "/shop" },
-      { title: "Right Sidebar", link: "/shop-right-sidebar" },
-      { title: "Hidden Sidebar", link: "/shop-hidden-sidebar" },
-      { title: "Only Categories", link: "/shop-category" },
-      { title: "Product Simple", link: "/product-details" },
-      { title: "With Video", link: "/product-details-video" },
-      { title: "With Countdown Timer", link: "/product-details-countdown" },
-      { title: "Variations Swatches", link: "/product-details-swatches" },
-    ],
+    isCategory: true,
   },
   {
     id: 3,
