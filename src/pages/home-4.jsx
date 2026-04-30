@@ -1,7 +1,7 @@
 import React from 'react';
 import SEO from '@/components/seo';
 import Wrapper from '@/layout/wrapper';
-import HeaderFour from '@/layout/headers/header-4';
+import HeaderFour from '@/layout/headers/header-2';
 import JewelryBanner from '@/components/banner/jewelry-banner';
 import JewelryShopBanner from '@/components/shop-banner/jewelry-shop-banner';
 import JewelryAbout from '@/components/about/jewelry-about';
@@ -18,18 +18,18 @@ const HomeFour = () => {
   return (
     <Wrapper>
       <SEO pageTitle="Home Four" />
-      <HeaderFour/>
-      <JewelryBanner/>
+      <HeaderFour />
+      <JewelryBanner />
       <FeatureAreaThree />
-      <JewelryShopBanner/>
-      <JewelryAbout/>
-      <PopularProducts/>
-      <ProductArea/>
-      <JewelryCollectionBanner/>
-      <BestSellerPrd/>
-      <JewelryBrands/>
-      <InstagramAreaFour/>
-      <FooterTwo/>
+      <JewelryShopBanner />
+      <JewelryAbout />
+      <PopularProducts />
+      <ProductArea />
+      <JewelryCollectionBanner />
+      <BestSellerPrd />
+      <JewelryBrands />
+      <InstagramAreaFour />
+      <FooterTwo />
     </Wrapper>
   );
 };

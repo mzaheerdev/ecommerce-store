@@ -1,7 +1,7 @@
 import React from 'react';
 import SEO from '@/components/seo';
 import Wrapper from '@/layout/wrapper';
-import Header from "@/layout/headers/header";
+import Header from "@/layout/headers/header-2";
 import ElectronicCategory from "@/components/categories/electronic-category";
 import HomeHeroSlider from "@/components/hero-banner/home-hero-slider";
 import FeatureArea from "@/components/features/feature-area";
@@ -21,21 +21,21 @@ const HomeTwo = () => {
   return (
     <Wrapper>
       <SEO pageTitle="Home Two" />
-      <Header/>
-      <HomeHeroSlider/>
-      <ElectronicCategory/>
-      <FeatureArea/>
-      <ProductArea/>
-      <BannerArea/>
-      <OfferProducts/>
-      <ProductGadgetArea/>
-      <ProductBanner/>
-       <NewArrivals/>
-      <ProductSmArea/>
-      <BlogArea/>
-      <InstagramArea/>
-      <CtaArea/>
-      <Footer/>
+      <Header />
+      <HomeHeroSlider />
+      <ElectronicCategory />
+      <FeatureArea />
+      <ProductArea />
+      <BannerArea />
+      <OfferProducts />
+      <ProductGadgetArea />
+      <ProductBanner />
+      <NewArrivals />
+      <ProductSmArea />
+      <BlogArea />
+      <InstagramArea />
+      <CtaArea />
+      <Footer />
     </Wrapper>
   );
 };

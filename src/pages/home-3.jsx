@@ -1,7 +1,7 @@
 import React from 'react';
 import SEO from '@/components/seo';
 import Wrapper from '@/layout/wrapper';
-import HeaderThree from '@/layout/headers/header-3';
+import HeaderThree from '@/layout/headers/header-2';
 import BeautyBanner from '@/components/banner/beauty-banner';
 import BeautyCategory from '@/components/categories/beauty-category';
 import BeautyFeatured from '@/components/features/beauty-featured';
@@ -18,17 +18,17 @@ const HomeThree = () => {
   return (
     <Wrapper>
       <SEO pageTitle="Home Three" />
-      <HeaderThree/>
-      <BeautyBanner/>
-      <BeautyCategory/>
-      <BeautyFeatured/>
-      <ProductArea/>
-      <BeautyOfferBanner/>
-      <ProductAreaTwo/>
-      <TrendingSpecialPrd/>
-      <BeautyTestimonial/>
-      <FeatureAreaTwo/>
-      <InstagramAreaThree/>
+      <HeaderThree />
+      <BeautyBanner />
+      <BeautyCategory />
+      <BeautyFeatured />
+      <ProductArea />
+      <BeautyOfferBanner />
+      <ProductAreaTwo />
+      <TrendingSpecialPrd />
+      <BeautyTestimonial />
+      <FeatureAreaTwo />
+      <InstagramAreaThree />
       <Footer style_3={true} />
     </Wrapper>
   );
